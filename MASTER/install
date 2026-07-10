@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+#--------------------------
+# SCRIPR SSH-PLUS
+# CANAL TELEGRAM: @ALFAINTERNET
+#--------------------------
+
+# - Atualiza Lista/Pacotes/Sistema
+dpkg --configure -a
+apt update -y && apt upgrade -y
+apt install unzip python3 -y
+
+# - Desabilita ipv6
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -p
+echo 'net.ipv6.conf.all.disable_ipv6 = 1' > /etc/sysctl.d/70-disable-ipv6.conf
+sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
+
+# - Execulta instalador
+wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/ARM/Plus && chmod 777 Plus && ./Plus
