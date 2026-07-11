@@ -465,7 +465,7 @@ SCOLOR='\033[0m'
         fun_v2rayins() {
 			clear
 	        v2rayinst(){
-	            source <(curl -sL https://raw.githubusercontent.com/arquivobgx/SSHPLUS/main/Modulos/v2ray)
+	            source <(curl -sL https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/v2ray)
                     sleep 6
 	        }
 	        if netstat -tunlp |grep v2ray 1> /dev/null 2> /dev/null; then

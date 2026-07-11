@@ -62,7 +62,7 @@ echo -e "\033[1;37m════════════════════�
                     sleep 0.1
                 } || {
                     cd $HOME
-                    wget https://raw.githubusercontent.com/Proverbiosx/copiador/main/world/instalador/badvpn-udpgw > /dev/null 2>&1
+                    wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/instalador/badvpn-udpgw > /dev/null 2>&1
                     mv -f $HOME/badvpn-udpgw /bin/badvpn-udpgw
                     chmod +x /bin/badvpn-udpgw
                 }

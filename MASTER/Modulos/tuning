@@ -178,10 +178,10 @@ sleep 5s
 cd /bin/ && rm -f tuning*
 cd /bin/ && rm -f acksyshttpack*
 cd /bin/ && rm -f ackclear*
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/tuning > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/tweaker > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/acksyshttpack > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ackclear > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/tuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/tweaker > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/acksyshttpack > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/ackclear > /dev/null 2>&1
 cd /bin/ && chmod +x tweaker
 cd /bin/ && chmod +x acksyshttpack
 cd /bin/ && chmod +x ackclear

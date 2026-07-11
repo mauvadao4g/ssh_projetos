@@ -1,1 +1,1 @@
-rm -rf install; wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/install; chmod +x install; ./install

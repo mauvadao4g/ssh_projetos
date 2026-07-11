@@ -1,7 +1,7 @@
 Para instalar use o comando abaixo:
 
 ```sh
-bash <(wget -qO- https://raw.githubusercontent.com/Penguinehis/DragonCoreSSH-Beta/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/DragonCoreSSH-Beta/install.sh)
 ```
 
 Documentação para integração:

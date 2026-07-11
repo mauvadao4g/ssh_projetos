@@ -62,7 +62,7 @@ fun_atts () {
 
   [[ -e /tmp/att ]] && rm /tmp/att
 
-	wget -c -P /home https://raw.githubusercontent.com/Proverbiosx/copiador/main/world/versao
+	wget -c -P /home https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/versao
 
 	[[ -f "/home/versao" ]] && mv /home/versao /tmp/att
 

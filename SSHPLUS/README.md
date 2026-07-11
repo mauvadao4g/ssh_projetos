@@ -1,8 +1,8 @@
 # SSHPLUS
 
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/ProverbioX9/SSHPLUS/main/Plus && chmod 777 Plus && ./Plus
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/SSHPLUS/Plus && chmod 777 Plus && ./Plus
 
 
 #Acessa Root
 
-wget https://raw.githubusercontent.com/ProverbioX9/SSHPLUS/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/SSHPLUS/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh

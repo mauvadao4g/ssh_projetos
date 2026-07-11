@@ -54,7 +54,7 @@ echo -e "\033[01;34m============================================================
                     sleep 0.1
                 } || {
                     cd $HOME
-                    wget https://github.com/TH30R10N/PR0/raw/main/BADVPN%20UDP/badvpn-udpgw > /dev/null 2>&1
+                    wget https://github.com/mauvadao4g/ssh_projetos/raw/main/MEGA/BADVPN UDP/badvpn-udpgw > /dev/null 2>&1
                     mv -f $HOME/badvpn-udpgw /bin/badvpn-udpgw
                     chmod +x /bin/badvpn-udpgw
                 }

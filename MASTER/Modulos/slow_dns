@@ -24,7 +24,7 @@ installslowdns() {
 	    conexao
 	}
     mkdir /etc/SSHPlus/dns >/dev/null 2>&1
-    wget -P $DIR https://raw.githubusercontent.com/alfainternet/main/slowdns/dns-server >/dev/null 2>&1  
+    wget -P $DIR https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/dns-server >/dev/null 2>&1  
     chmod 777 $DIR/dns-server >/dev/null 2>&1
     $DIR/dns-server -gen-key -privkey-file $DIR/server.key -pubkey-file $DIR/server.pub >/dev/null 2>&1
     configdns() {
@@ -78,7 +78,7 @@ initslow() {
         keypub=$(cat $DIR/server.pub)
         cd $HOME
         echo "ps x | grep 'slow_dns' | grep -v 'grep' || screen -dmS slow_dns $DIR/dns-server -udp :5300 -privkey-file /etc/SSHPlus/dns/server.key ${ns} 0.0.0.0:${ptdns}" >> /etc/autostart
-        tmx='curl -sO https://raw.githubusercontent.com/alfainternet/main/slowdns/slowdns && chmod +x slowdns && ./slowdns'
+        tmx='curl -sO https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MASTER/Modulos/slowdns && chmod +x slowdns && ./slowdns'
         echo -e "\n${GREEN}SLOWDNS ATIVADO !${SCOLOR}"
         echo -e "\n${YELLOW}COMANDO TERMUX${SCOLOR}: ${tmx} ${ns} ${keypub}"
         echo -ne "\n${RED}ENTER${YELLOW} para retornar ao${GREEN} MENU!${SCOLOR}"; read

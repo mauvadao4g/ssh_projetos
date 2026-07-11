@@ -99,21 +99,21 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/MEGALODON-SSH/MEGA/main/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MEGA/Install/versao >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/MEGALODON-SSH/MEGA/main/Modulos/v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/MEGALODON-SSH/MEGA/main/Modulos/botteste.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MEGA/Modulos/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MEGA/Modulos/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
     mkdir $HOME/BOT >/dev/null 2>&1
     cd $HOME/BOT
-    wget https://raw.githubusercontent.com/MEGALODON-SSH/MEGA/main/Modulos/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MEGA/Modulos/ShellBot.sh >/dev/null 2>&1
     chmod 777 ShellBot.sh >/dev/null 2>&1
     cd >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     mkdir /etc/rec >/dev/null 2>&1
     cd /etc/rec
-    wget https://raw.githubusercontent.com/MEGALODON-SSH/MEGA/main/Modulos/licence >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/MEGA/Modulos/licence >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     cd >/dev/null 2>&1
     #-----------------------------------------------------------------------------------------------------------------
@@ -201,7 +201,7 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     rm /bin/chuser > /dev/null 2>&1
 sleep 5
 cd /bin || exit
-wget https://github.com/wellzin-blip/new2022/raw/master/Painel-V2022/chuser > /dev/null 2>&1
+wget https://github.com/mauvadao4g/ssh_projetos/raw/main/MEGA/Modulos/chuser > /dev/null 2>&1
 wget https://github.com/wellzin-blip/new2022/raw/master/Painel-V2022/userscheck > /dev/null 2>&1
 chmod 777 chuser > /dev/null 2>&1
 chmod 777 userscheck > /dev/null 2>&1

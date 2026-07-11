@@ -401,7 +401,7 @@ fi
 #--------------------
 elif [ "$cake" == "9" ]; then
 local_version=$(cat /opt/DragonCore/version.txt)
-remote_version=$(wget -qO- https://raw.githubusercontent.com/Penguinehis/DragonCoreSSH-Beta/main/version.txt)
+remote_version=$(wget -qO- https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/DragonCoreSSH-Beta/version.txt)
 if [[ "$local_version" == "$remote_version" ]]; then
 clear
 echo ""
@@ -418,7 +418,7 @@ echo -ne "Atualizar script? S/N > "; read att
 echo ""
 lowercaseInput=$(echo "$att" | tr '[:upper:]' '[:lower:]')
 if [[ "$lowercaseInput" == 'y' || "$lowercaseInput" == 's' ]]; then
-bash <(wget -qO- https://raw.githubusercontent.com/Penguinehis/DragonCoreSSH-Beta/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/DragonCoreSSH-Beta/install.sh)
 clear
 echo ""
 echo "Por favor digite menu novamente!"

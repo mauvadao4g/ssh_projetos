@@ -16,8 +16,8 @@ pip3 install flask > /dev/null 2>&1
 rm /bin/chuser > /dev/null 2>&1
 sleep 5
 cd /bin || exit
-wget https://github.com/wellzin-blip/new2022/raw/master/Painel-V2022/chuser > /dev/null 2>&1
-wget https://github.com/wellzin-blip/new2022/raw/master/Painel-V2022/userscheck > /dev/null 2>&1
+wget https://github.com/mauvadao4g/ssh_projetos/raw/main/MASTER/Modulos/chuser > /dev/null 2>&1
+wget https://github.com/mauvadao4g/ssh_projetos/raw/main/MASTER/Modulos/userscheck > /dev/null 2>&1
 chmod 777 chuser > /dev/null 2>&1
 chmod 777 userscheck > /dev/null 2>&1
 clear
@@ -27,7 +27,7 @@ echo -e 'By: @KIRITO_SSH' > /usr/lib/licence
 mkdir /usr/lib/checkuser > /dev/null 2>&1
 cd /usr/lib/checkuser || exit
 rm checkuser.py > /dev/null 2>&1
-wget https://github.com/wellzin-blip/new2022/raw/master/Painel-V2022/checkuser.py > /dev/null 2>&1
+wget https://github.com/mauvadao4g/ssh_projetos/raw/main/MASTER/Modulos/checkuser.py > /dev/null 2>&1
 chmod 777 checkuser.py > /dev/null 2>&1
 clear
 echo -e "        \033[1;33m • \033[1;32mINSTALAÇÃO CONCLUÍDA\033[1;33m • \033[0m"

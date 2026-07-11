@@ -1,1 +1,1 @@
-rm -rf install; wget https://raw.githubusercontent.com/leitura/slowdns/main/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/SSHPLUS/Slowdns/install; chmod +x install; ./install

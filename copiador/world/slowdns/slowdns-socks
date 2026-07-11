@@ -57,7 +57,7 @@ echo -e "CONFIGURANDO IPTABLES..."
 ipt_set () {
 cd /etc
 mv rc.local rc.local.bkp
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/rc.local
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/rc.local
 chmod +x /etc/rc.local
 systemctl enable rc-local
 systemctl start rc-local
@@ -73,8 +73,8 @@ touch infons
 echo $nameserver > infons
 set_ns () {
 sleep 1
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/socks/startdns 
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/socks/restartdns
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/socks/startdns 
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/socks/restartdns
 chmod +x startdns
 chmod +x restartdns
 sed -i "s;1234;$nameserver;g" /etc/slowdns/startdns > /dev/null 2>&1
@@ -173,8 +173,8 @@ Opcao3 () {
 echo -e "Baixando par de chaves padrão..."
 cd
 rm server.key server.pub
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/server.key
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/server.pub
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/server.key
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/server.pub
 sleep 1
 echo -e "Download Concluído"
 sleep 1
@@ -254,8 +254,8 @@ slowdns
 opc_key2 () {
 echo -e "Baixando par de chaves padrão..."
 cd
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/server.key
-wget https://raw.githubusercontent.com/WorldSsh/prueba/main/world/slowdns/server.pub
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/server.key
+wget https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/copiador/world/slowdns/server.pub
 sleep 1
 echo -e "Download Concluído"
 sleep 1

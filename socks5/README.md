@@ -1,10 +1,10 @@
 #ROOT SENHA
 
-source <(curl -sL 'https://raw.githubusercontent.com/kiritosshxd/socks5/refs/heads/main/root.sh')
+source <(curl -sL 'https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/socks5/root.sh')
 
 #SOCKS5
 
-wget -O socks5 https://github.com/kiritosshxd/socks5/raw/refs/heads/main/socks5
+wget -O socks5 https://github.com/mauvadao4g/ssh_projetos/raw/main/socks5/socks5
 
 chmod 777 socks5
 
@@ -16,5 +16,5 @@ chmod 777 socks5
 
 #SOCKS5 INSTALL
 
-source <(curl -sL 'https://raw.githubusercontent.com/kiritosshxd/socks5/refs/heads/main/socks5.sh')
+source <(curl -sL 'https://raw.githubusercontent.com/mauvadao4g/ssh_projetos/main/socks5/socks5.sh')
 

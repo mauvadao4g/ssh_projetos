@@ -31,7 +31,7 @@ fi
 
 # Baixar binário socks5
 echo "➡️  Baixando binário SOCKS5..."
-wget -q -O /usr/bin/socks5 https://github.com/kiritosshxd/socks5/raw/refs/heads/main/socks5
+wget -q -O /usr/bin/socks5 https://github.com/mauvadao4g/ssh_projetos/raw/main/socks5/socks5
 
 if [ $? -ne 0 ]; then
   echo "❌ Falha ao baixar o binário SOCKS5."
